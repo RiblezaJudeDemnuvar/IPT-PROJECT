@@ -1,0 +1,80 @@
+
+body{
+  margin: 0; 
+  padding: 0;
+  font-family: sans-serif;
+  background-image: linear-gradient(to top, #c2e59c, #64b3f4);
+
+
+}
+.container {
+	margin-top: 200px;
+}
+ .containerLogin {
+  margin-top: 200px;
+ }
+.box {
+  padding: 50px;
+  background: #FFFAFA;
+  width: 300px;
+  height: 550px;
+  margin-top: -600px;
+  margin-left: 34%;
+  margin-bottom: 200px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #888888;
+
+}
+
+h1,h2, p {
+	text-align: center;
+}
+.terms p, a {
+
+	margin-top: 400px;
+	margin-bottom: 400px;
+	text-decoration-line: none;
+}
+.termLogin {
+  margin-top: 100px;
+  margin-bottom: 400px;
+  text-decoration-line: none;
+}
+.form-email,.pass1, .login-username,.login-password,.check{
+	margin-left: 43%;
+	margin-top: 10px;
+}
+.button1 button{
+	margin-left: 585px;
+	margin-top: 10px;
+  margin-bottom: 150px;
+	padding: 10px;
+	box-shadow: 5px 5px 5px #888888;
+  color: #FFFAFA;
+  cursor: pointer;
+}
+ .login-btn button {
+  margin-left: 594px;
+  margin-top: 10px;
+  margin-bottom: 150px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px #888888;
+  color: #FFFAFA;
+  cursor: pointer;
+ }
+.login-box {
+  padding: 50px;
+  background: #FFFAFA;
+  width: 300px;
+  height: 400px;
+  margin-top: -1000px;
+  margin-left: 34%;
+  margin-bottom: 400px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #888888;
+}
+.cancel button{
+  margin-left: 43%;
+  margin-bottom: : 600px;
+  padding: 5px;
+}
