@@ -1,4 +1,7 @@
 <?php
+
+	$url_add = "http://".$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
+
 	if (isset($_REQUEST['btn1']) ===true) {
 		if ($_REQUEST['email'] == "jude") {
 			echo "jude";
@@ -13,7 +16,7 @@
 	<title>\</title>
 	
 </head>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="stylee.css">
 <body>
 	<form action="index.php" method="POST">
   <div class="container">

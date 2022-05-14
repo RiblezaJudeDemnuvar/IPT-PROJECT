@@ -78,3 +78,10 @@ h1,h2, p {
   margin-bottom: : 600px;
   padding: 5px;
 }
+.navs form, button,a{
+  margin-left: 10px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 500px;
+  text-align: center;
+}

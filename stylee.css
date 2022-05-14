@@ -1,0 +1,181 @@
+
+body{
+  margin: 0; 
+  padding: 0;
+  font-family: sans-serif;
+  background-image: linear-gradient(to top, #c2e59c, #64b3f4);
+  overflow-x: hidden;
+}
+
+.container {
+	margin-top: 200px;
+}
+ .containerLogin {
+  margin-top: 200px;
+ }
+.box {
+  padding: 50px;
+  background: #FFFAFA;
+  width: 300px;
+  height: 550px;
+  margin-top: -600px;
+  margin-left: 34%;
+  margin-bottom: 200px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #888888;
+
+}
+
+h1,h2, p {
+	text-align: center;
+}
+.terms p, a {
+
+	margin-top: 400px;
+	margin-bottom: 400px;
+	text-decoration-line: none;
+}
+.termLogin {
+  margin-top: 100px;
+  margin-bottom: 600px;
+  text-decoration-line: none;
+}
+.form-email,.pass1, .login-username,.login-password,.check{
+	margin-left: 43%;
+	margin-top: 10px;
+}
+.button1 button{
+	margin-left: 585px;
+	margin-top: 10px;
+  margin-bottom: 150px;
+	padding: 10px;
+	box-shadow: 5px 5px 5px #888888;
+  color: #FFFAFA;
+  cursor: pointer;
+}
+ .login-btn button {
+  margin-left: 594px;
+  margin-top: 10px;
+  margin-bottom: 150px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px #888888;
+  color: #FFFAFA;
+  cursor: pointer;
+ }
+.login-box {
+  padding: 50px;
+  background: #FFFAFA;
+  width: 300px;
+  height: 400px;
+  margin-top: -1200px;
+  margin-left: 34%;
+  margin-bottom: 600px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #888888;
+}
+.cancel button{
+  margin-left: 43%;
+  margin-bottom: : 600px;
+  padding: 5px;
+  box-shadow: 5px 5px 5px #888888;
+}
+.navs {
+  margin-left: 120px;
+  margin-top: 20px;
+  margin-bottom: 800px;
+
+}
+.navi button{
+  margin: 30px;
+  padding: 10px;
+  width: 200px;
+  box-shadow: 5px 5px 5px #888888;
+}
+.images img{
+  width: 100px;
+  height: 100px;
+  margin-left: 80%;
+}
+input[type="checkbox"] {
+  position: fixed;
+  right: 12px;
+  top: 20px;
+  width: 70px;
+  height: 30px;
+  color: #b3c4b7;
+  z-index: 100000;
+}
+.icon {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  width: 70px;
+  height: 30px;
+  z-index: 100000;
+  background: #FFFAFA;
+  pointer-events: none;
+  border-radius: 5px;
+  box-shadow:  5px 5px 5px #888888;
+}
+.icon.before {
+  content: 'close';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: black;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  box-shadow:  5px 5px 5px #888888;
+}
+input[type="checkbox"]:checked~ .icon:before {
+  content: 'MENU';
+}
+ul {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  width: 200px;
+  height: 100%;
+  background: #a2f0f2;
+  transition: 0.5s;
+  z-index: 100000;
+  overflow-y: auto;  
+}
+input[type="checkbox"]:checked~ ul {
+  left: -300px;
+
+} 
+ul li {
+  list-style: none;
+}
+ul li a {
+  display: block;
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 800;
+  transition: 0.5s;
+}
+ul li a:hover {
+  transform: translateX(10px);
+  color: #b3c4b7;
+
+}
+.dashboardBox {
+  padding: 50px;
+  background: #FFFAFA;
+  width: 1110px;
+  height: 3000px;
+  margin-top: -900px;
+  margin-left: 2%;
+  margin-bottom: 200px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #888888;
+}
