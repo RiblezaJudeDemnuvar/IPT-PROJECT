@@ -172,10 +172,34 @@ ul li a:hover {
   padding: 50px;
   background: #FFFAFA;
   width: 1110px;
-  height: 3000px;
-  margin-top: -900px;
+  height: 2000px;
+  margin-top: -600px;
   margin-left: 2%;
   margin-bottom: 200px;
   border-radius: 10px;
   box-shadow: 5px 5px 5px #888888;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  border-radius: 4px;
+  margin-bottom: 30%;
+  margin-left: 100px;
+  margin-top: -300px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
 }

@@ -20,9 +20,9 @@
 			</form>
 		</div>
 		<br>
-		<div class="images">
+		<!-- <div class="images">
 			<img src="images/cap1.avif">
-		</div>
+		</div> -->
 
 			<input type="checkbox" name="" checked="checked">
 			<span class="icon"></span>
@@ -34,7 +34,93 @@
 			</ul>
 	</div>
 
-	<div class="dashboardBox">
+	
+
+	<div class="gallery">
+  <a target="_blank" href="images/cap1.avif">
+    <img src="images/cap1.avif" alt="Cinque Terre" width="600" height="800">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/cap2.avif">
+    <img src="images/cap2.avif" alt="Forest" width="600" height="800">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/cap3.avif">
+    <img src="images/cap3.avif" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/cap3.avif">
+    <img src="images/cap3.avif" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/cap3.avif">
+    <img src="images/cap3.avif" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/cap3.avif">
+    <img src="images/cap3.avif" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/cap3.avif">
+    <img src="images/cap3.avif" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/cap3.avif">
+    <img src="images/cap3.avif" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/cap3.avif">
+    <img src="images/cap3.avif" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/cap3.avif">
+    <img src="images/cap3.avif" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/cap3.avif">
+    <img src="images/cap3.avif" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/cap3.avif">
+    <img src="images/cap3.avif" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="dashboardBox">
 		
 	</div>
 
