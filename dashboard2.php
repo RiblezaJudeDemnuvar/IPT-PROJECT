@@ -25,7 +25,7 @@
 			<ul>
 				<li><a href="#"> REPORT</a></li>
 				<li><a href="#">HELP</a></li>
-				<li><a href="#">SETTING</a></li>
+				<li><a href="#">SETTINGS</a></li>
 				<li><a href="#">EXIT</a></li>
 			</ul>
 	</div>
