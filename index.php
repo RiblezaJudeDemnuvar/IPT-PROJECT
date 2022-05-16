@@ -19,7 +19,7 @@
 <link rel="stylesheet" href="stylee.css">
 <body>
 	<form action="index.php" method="POST">
-  <div class="container">
+  <div class="containerIndex">
   	<h3>	</h3>>
   	<h2>WELCOME!</h2>
     <h1>Register</h1>

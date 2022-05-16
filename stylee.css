@@ -82,7 +82,7 @@ h1,h2, p {
 .navs {
   margin-left: 120px;
   margin-top: 20px;
-  margin-bottom: 800px;
+  margin-bottom: 400px;
 
 }
 .navi button{
@@ -172,12 +172,18 @@ ul li a:hover {
   padding: 50px;
   background: #FFFAFA;
   width: 1110px;
-  height: 2000px;
-  margin-top: -600px;
+  height: 1800px;
+  margin-top: -400px;
   margin-left: 2%;
-  margin-bottom: 200px;
+  margin-bottom: 300px;
   border-radius: 10px;
   box-shadow: 5px 5px 5px #888888;
+}
+.gallery {
+  margin-top: 400px;
+}
+#pictures {
+  margin-top: 400px;
 }
 div.gallery {
   margin: 5px;
@@ -187,7 +193,7 @@ div.gallery {
   border-radius: 4px;
   margin-bottom: 30%;
   margin-left: 100px;
-  margin-top: -300px;
+  margin-top: -350px;
 }
 
 div.gallery:hover {
@@ -202,4 +208,158 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+}
+.nexxt {
+  margin-left: 40%;
+  
+  margin-bottom: 10%;
+}
+.nexxt button {
+  padding: 10px;
+  width: 100px;
+  margin-top: -90%;
+  cursor: pointer;
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px #888888;
+
+}
+
+hr.dashed {
+  border-top: 5px dashed #bbb;
+}
+
+.Jude{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to top, #c2e59c, #64b3f4);
+}
+nav {
+    width: 80%;
+    position: sticky;
+    margin:20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    flex-basis: 20%;
+}
+.logo img{
+    width: 50px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin:20px;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.information{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    transform: translateY(-50%);
+}  
+#circle{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border-radius: 5%;
+    transform: rotate(0deg);
+    transition: 1s;
+}
+.feature img{
+    width: 70px;
+}
+.feature{
+   position: absolute;
+   display: flex;
+   color: #FFF;
+}
+.feature div{
+   margin-left: 30px;
+}
+.feature div p{
+   margin-top: 8px;
+}
+.one{
+   top: 450px;
+   right: 50px;
+}
+.two{
+   top: 150px;
+   left: 350px;
+   transform: rotate(-90deg);
+}
+.three{
+   bottom: 450px;
+   left: 40px;
+   transform: rotate(-180deg);
+}
+.four{
+   bottom: 150px;
+   left: 350px;
+   transform: rotate(-270deg);
+}
+.jhude{
+   width: 200px;
+   position: absolute;
+   top: 40%;
+   left: 35%;
+   transform: translateY(- 50%);
+   z-index: 1;
+}
+.controls{
+   position: absolute;
+   right: 10%;
+   top: 50%;
+   transform: translateY(-50%);
+   text-align: center;
+}
+.controls h3 {
+   margin: 15px 0;
+}
+#up{
+   width: 15px;
+    cursor: pointer;
+}
+#down{
+    width: 15px;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+.overlay{
+    width: 0;
+    height: 0;
+    border-top: 500px solid #fff;
+    border-right: 500px solid transparent;
+    border-bottom: 500px solid #fff;
+    border-left: 500px solid #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.navs {
+  margin-left: 120px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+}
+.navi button{
+  margin: 30px;
+  padding: 10px;
+  width: 200px;
+  box-shadow: 5px 5px 5px #888888;
 }
