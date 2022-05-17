@@ -4,14 +4,35 @@
 	<title>Jude Webpage</title>
 	<link rel="stylesheet" href="stylee.css">
 </head>
+	<style>
+	.skills,h3 h4 {
+  		margin-left: 70%;
+  		margin-top: -13%;
+	}
+	.personal-info h4{
+  		margin-left: 50px;
+	}
+
+	.shape {
+		  padding: 50px;
+		  background: #FFFAFA;
+		  width: 1100px;
+		  height: 60px;
+		  margin-top: -13%;
+		  margin-left: 2%;
+		  border-radius: 10px;
+		  box-shadow: 5px 5px 5px #888888;
+	}
+	</style>
+
 <body>
 
 	<div class="navs">
 			<form class="navi">
-				<button><a href="#">HOME</a></button>
-				<button><a href="#">MY PROFILE</a></button>
-				<button><a href="#">CONTACTS</a></button>
-				<button><a href="#">ABOUT</a></button>
+				<button><a href="#" style="color: black">HOME</a></button>
+				<button><a href="#" style="color: black">MY PROFILE</a></button>
+				<button><a href="#" style="color: black">CONTACTS</a></button>
+				<button><a href="#" style="color: black">ABOUT</a></button>
 			</form>
 		</div>
 
@@ -93,6 +114,33 @@
 			rotateValue = rotateSum;
 		}
 	</script>
+
+	<hr class="dashed">
+	<div class="personal-info">
+		<h2 style="font-family: sans-serif;">PERSONAL INFORMATION</h2>
+		<hr>
+		<h4>NAME: JUDE DEMNUVAR L. RIBLEZA</h4>	
+		<h4>ADDRESS: PUYOG, BOAC, MARINDUQUE</h4>
+		<h4>BIRTHDAY: JULY 31, 2000</h4>
+		<h4>AGE: 21</h4>
+
+		<div class="skills">
+			<h3>EXPERTISE</h3>
+			<h4>Feeling Expert</h4>
+			<h4>Fake Developer</h4>
+			<h4>Fake Agent</h4>
+		</div>
+
+		<div class="shape">
+		
+	</div>
+		<hr class="dashed">
+	</div>
+
+	
+	
+
+	
 
 </body>
 </html>

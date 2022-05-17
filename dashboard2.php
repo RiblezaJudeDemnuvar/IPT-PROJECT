@@ -146,7 +146,7 @@
 
 	</div>
 
-	<div class="dashboardBox">
+	<div class="dashboardBoxs">
 		
 	</div>
 

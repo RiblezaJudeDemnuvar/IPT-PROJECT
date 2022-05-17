@@ -234,6 +234,7 @@ hr.dashed {
     position: relative;
     overflow: hidden;
     background: linear-gradient(to top, #c2e59c, #64b3f4);
+    margin-bottom: 500px;
 }
 nav {
     width: 80%;
@@ -363,3 +364,4 @@ nav {
   width: 200px;
   box-shadow: 5px 5px 5px #888888;
 }
+
