@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,9 @@
 	.skills,h3 h4 {
   		margin-left: 70%;
   		margin-top: -13%;
+	}
+	.personal-info {
+  		margin-top: 1px;
 	}
 	.personal-info h4{
   		margin-left: 50px;
@@ -115,8 +119,8 @@
 		}
 	</script>
 
-	<hr class="dashed">
 	<div class="personal-info">
+		<hr class="dashed">
 		<h2 style="font-family: sans-serif;">PERSONAL INFORMATION</h2>
 		<hr>
 		<h4>NAME: JUDE DEMNUVAR L. RIBLEZA</h4>	
@@ -131,13 +135,12 @@
 			<h4>Fake Agent</h4>
 		</div>
 
+
 		<div class="shape">
 		
 	</div>
 		<hr class="dashed">
 	</div>
-
-	
 	
 
 	

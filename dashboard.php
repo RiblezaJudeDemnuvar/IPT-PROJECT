@@ -20,7 +20,9 @@
 			</form>
 		</div>
 
-			<input type="checkbox" name="" checked="checked">
+		<div class="menu">
+
+			<input class="menu" type="checkbox" name="" checked="checked">
 			<span class="icon"></span>
 			<ul>
 				<li><a href="#"> REPORT</a></li>
@@ -28,6 +30,8 @@
 				<li><a href="#">SETTING</a></li>
 				<li><a href="#">EXIT</a></li>
 			</ul>
+
+		</div>
 	</div>
 
 	<div id="pictures">
@@ -157,9 +161,6 @@
 
 	</div>
 
-	<div class="shape">
-		
-	</div>
 	
 
 	

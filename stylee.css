@@ -82,7 +82,7 @@ h1,h2, p {
 .navs {
   margin-left: 120px;
   margin-top: 20px;
-  margin-bottom: 400px;
+  margin-bottom: 40px;
 
 }
 .navi button{
@@ -234,7 +234,7 @@ hr.dashed {
     position: relative;
     overflow: hidden;
     background: linear-gradient(to top, #c2e59c, #64b3f4);
-    margin-bottom: 500px;
+    margin-top: 5px;
 }
 nav {
     width: 80%;
@@ -355,7 +355,7 @@ nav {
 .navs {
   margin-left: 120px;
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 100px;
 
 }
 .navi button{
