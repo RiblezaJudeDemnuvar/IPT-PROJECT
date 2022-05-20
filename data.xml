@@ -1,4 +1,8 @@
 <?xml version="1.0"?>
 <user>
-	
-<data><username>jude</username><password>12345</password></data><data><username>dasdasd</username><password>dasdasd</password></data></user>
+<data><username>judepogi</username>
+	<password>123</password>
+	<fullname>Jude Demnuvar L. Ribleza</fullname>
+	<fulladdress>Puyog, Boac, Marinduque</fulladdress>
+</data>
+	<data><username>jason</username><password>1212</password><fullname>Jude Demnuvar L. Ribleza</fullname><fulladdress>Puyog, Boac, Marinduque</fulladdress></data><data><username>jude31</username><password>2121</password><fullname>Naruto Usumaki</fullname><fulladdress>Puyog, Boac, Marinduque</fulladdress></data></user>

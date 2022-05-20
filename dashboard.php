@@ -1,8 +1,27 @@
+<?php
+	SESSION_START();
+	$xml=file_get_contents('data.xml');
+	$xml_parse=simplexml_load_string($xml);
+	foreach($xml_parse as$k=>$v){
+	$uname = $v->username;
+	$pass = $v->password;
+	
+	if (isset($_SESSION['username'])===true)  {
+    header("Location: login.php?logfirst");
+	} 
+	elseif (isset($_REQUEST['logout']) ===true) {
+	    session_destroy();
+	    header("Location: login.php?logout");
+	}
+}
+
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Main Page</title>
-	<link rel="stylesheet" href="stylee.css">
+	<link rel="stylesheet" href="styles.css">
 </head>
 <script type="text/javascript">
 	function tooglemenu(){
@@ -14,7 +33,7 @@
 		<div class="navs">
 			<form class="navi">
 				<button><a href="#">HOME</a></button>
-				<button><a href="#">MY PROFILE</a></button>
+				<button><a href="profile.php">MY PROFILE</a></button>
 				<button><a href="#">CONTACTS</a></button>
 				<button><a href="#">ABOUT</a></button>
 			</form>
@@ -28,7 +47,7 @@
 				<li><a href="#"> REPORT</a></li>
 				<li><a href="#">HELP</a></li>
 				<li><a href="#">SETTING</a></li>
-				<li><a href="#">EXIT</a></li>
+				<form action="login.php" method="POST"><li><a href="?logout">LOG OUT</a></li></form>
 			</ul>
 
 		</div>

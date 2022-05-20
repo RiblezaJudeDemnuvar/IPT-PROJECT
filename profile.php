@@ -1,13 +1,17 @@
 <?php
+	SESSION_START();
+	if (isset($_REQUEST['logout']) ===true) {
+	    session_destroy();
+	    header("Location: login.php?logout");
+	}
 
-echo
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<title>Jude Webpage</title>
-	<link rel="stylesheet" href="stylee.css">
+	<link rel="stylesheet" href="styles.css">
 </head>
 	<style>
 	.skills,h3 h4 {
@@ -50,7 +54,7 @@ echo
 				<li><a href="#"> REPORT</a></li>
 				<li><a href="#">HELP</a></li>
 				<li><a href="#">SETTING</a></li>
-				<li><a href="#">EXIT</a></li>
+				<form action="login.php" method="POST"><li><a href="?logout">LOG OUT</a></li></form>
 			</ul>
 
 			<hr class="dashed">
@@ -127,7 +131,7 @@ echo
 		<hr class="dashed">
 		<h2 style="font-family: sans-serif;">PERSONAL INFORMATION</h2>
 		<hr>
-		<h4>NAME: JUDE DEMNUVAR L. RIBLEZA</h4>	
+		<h4>NAME: <?php echo $_SESSION['fullname']?>  </h4>	
 		<h4>ADDRESS: PUYOG, BOAC, MARINDUQUE</h4>
 		<h4>BIRTHDAY: JULY 31, 2000</h4>
 		<h4>AGE: 21</h4>
@@ -138,6 +142,8 @@ echo
 			<h4>Fake Developer</h4>
 			<h4>Fake Agent</h4>
 		</div>
+
+
 
 
 		<div class="shape">

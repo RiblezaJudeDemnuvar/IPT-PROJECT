@@ -1,4 +1,9 @@
-
+/*!
+ * Bootstrap v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
 body{
   margin: 0; 
   padding: 0;
@@ -8,17 +13,17 @@ body{
 }
 
 .container {
-	margin-top: 200px;
+	margin-top: 100px;
 }
  .containerLogin {
-  margin-top: 700px;
+  margin-top: 300px;
  }
 .box {
   padding: 50px;
   background: #FFFAFA;
   width: 300px;
-  height: 550px;
-  margin-top: -600px;
+  height: 700px;
+  margin-top: -700px;
   margin-left: 34%;
   margin-bottom: 200px;
   border-radius: 10px;
@@ -40,9 +45,9 @@ h1,h2, p {
   margin-bottom: 600px;
   text-decoration-line: none;
 }
-.form-email,.pass1, .login-username,.login-password,.check{
+.form-email,.form-fullname,.pass1, .login-username,.login-password,.check{
 	margin-left: 43%;
-	margin-top: 10px;
+	margin-top: 30px;
 }
 .button1 button{
 	margin-left: 585px;
@@ -54,9 +59,9 @@ h1,h2, p {
   cursor: pointer;
 }
  .login-btn input {
-  margin-left: 43%;
-  margin-top: -1100px;
-  margin-bottom: 150px;
+  margin-left: 47%;
+  margin-top: 70px;
+  margin-bottom: 100px;
   padding: 10px;
   box-shadow: 5px 5px 5px #888888;
   color: #FFFAFA;
@@ -67,7 +72,7 @@ h1,h2, p {
   background: #FFFAFA;
   width: 300px;
   height: 400px;
-  margin-top: -1900px;
+  margin-top: -1200px;
   margin-left: 34%;
   margin-bottom: 600px;
   border-radius: 10px;
